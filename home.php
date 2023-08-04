@@ -1,6 +1,4 @@
 <?php
-// view_events.php
-
 session_start();
 include 'config.php';
 

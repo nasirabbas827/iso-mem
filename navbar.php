@@ -7,7 +7,7 @@
     <ul class="navbar-nav ml-auto">
       <?php if (isset($_SESSION["email"])) { // Check if the user is logged in ?>
         <li class="nav-item active">
-          <a class="nav-link" href="">Logged in as <?php echo $_SESSION["email"]; ?></a>
+          <a class="nav-link" href="update_profile.php">Logged in as <?php echo $_SESSION["email"]; ?></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="home.php">Home</a>
